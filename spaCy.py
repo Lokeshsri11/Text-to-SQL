@@ -62,9 +62,3 @@ def convertTextToSQL(text):
 
     return sqlQuery
 
-# Example usage:
-text = input("Enter your text: ")
-sqlQuery = convertTextToSQL(text)
-if sqlQuery:
-    print("Generated SQL query:")
-    print(sqlQuery)
